@@ -1,0 +1,26 @@
+body {
+  background-image:url(../images/bgcontact.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.contact-me{
+  max-width:100%;
+  background-color: rgba(0,0,0,0.6);
+  color:white;
+  margin-top: 20px;
+}
+
+.mail{
+  color:orange;
+}
+
+.mail:hover{
+  color:yellow;
+  text-shadow:0px 0px 100px cyan;
+}

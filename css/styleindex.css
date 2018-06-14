@@ -1,0 +1,124 @@
+body {
+  background-image:url(../images/bgindex.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.title{
+  font-family:tahoma;
+  color:white;
+  margin-top:50px;
+  max-width:400px;
+}
+
+.title:hover{
+  transition:0.5s;
+  text-shadow:0px 0px 100px orange;
+}
+.sub-title{
+  font-family:tahoma;
+  color:white;
+  margin-top:20px;
+  max-width:400px;
+}
+
+.sub-title:hover{
+  transition:0.5s;
+  text-shadow:0px 0px 100px orange;
+}
+
+.toplist{
+  margin-top:30px;
+}
+
+
+.toplistbutton{
+  border-radius:5px;
+  border-style:solid;
+  border-width: 1px;
+  border-color:rgba(17, 100, 102,0.5);
+  background-color:rgba(17, 100, 102,0.1);
+  margin:10px 10px;
+}
+
+.toplistbutton:hover{
+  box-shadow:0px 0px 50px 0.01px cyan;
+  transition:0.2s;
+  border-color:rgba(17, 100, 102,1.0);
+  background-color:rgba(17, 100, 102,0.2);
+}
+
+.toplistbuttoncurrent{
+  border-radius:5px;
+  border-style:solid;
+  border-width: 1px;
+  border-color:rgba(17, 100, 102,0.6);
+  background-color:rgba(17, 100, 102,0.7);
+  margin:0px 10px;
+}
+
+.toplisttext{
+  color:rgba(255,255,255,1.0);
+  padding:10px;
+}
+
+.icon{
+  margin-top:760px;
+}
+
+.feed{
+  margin-top: 50px;
+  max-width: 700px;
+  background-color: rgba(255,255,255,1);
+  border-style:solid;
+  border-width: 1px;
+  border-color:white;
+}
+
+.content{
+  margin:300px 0px;
+}
+
+.content-image{
+  margin:-20px;
+  max-width: 700px;
+}
+
+.caption{
+  background-color: rgba()
+  margin-bottom:40px;
+  font-weight: 600;
+  font-size:26px;
+}
+.load{
+  position:fixed;
+  top:1040px;
+  left:905px;
+  right:0;
+  bottom:30px;
+  border-radius:50px;
+  border-style:solid;
+  border-width: 1px;
+  border-color:rgba(17, 100, 102,0.5);
+  background-color:rgba(17, 100, 102,0.1);
+}
+
+
+a:hover{
+  color:white;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  right: 0;
+  height: 60px;
+  background-color:rgba(17, 100, 102,0.2);
+  color:white;
+  max-width: 100%;
+}

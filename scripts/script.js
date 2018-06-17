@@ -17,7 +17,7 @@ window.addEventListener("scroll", function(){
 },false);
 
 
-var memenum = 8;
+var memenum = 11;
 
 
 function loadmore(){
